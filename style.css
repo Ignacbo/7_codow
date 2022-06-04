@@ -5,6 +5,10 @@ body {
     height: 1800px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*
 #top{
     margin-top: 7px;
@@ -195,10 +199,6 @@ body {
         color: black;
     }
 
-    #menu a.active {
-        background-color: #658031;
-        color: white;
-    }
 
 
 
