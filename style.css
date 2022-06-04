@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    background-image: url("img/vecteezyfloral-background-2ik0521_generated.jpg");
+    background-size: 900px 900px;
+}
+
+/*
+#top{
+    margin-top: 7px;
+    margin-left: 2%;
+    margin-right: 2%;
+    min-width: 600px;
+    height: 200px;
+    border: 7px solid rgb(96, 78, 78);
+    border-radius: 17px;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("img/vecteezyfloral-background-2ik0521_generated.jpg");
+    background-size: 500px 500px;
+}
+*/
+
+/*
+#top{
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("img/vecteezyfloral-background-2ik0521_generated.jpg");
+    background-size: 900px 900px;
+    height: 300px;
+    border-bottom: 10px dashed rgb(96, 78, 78);
+    width: 100% ;
+}
+
+#mid{
+    background-color: #48381f;
+    background-size: 900px 900px;
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 900px;
+    border-radius: 40px;
+}
+
+#logo{
+    float: left;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#title{
+    position: relative;
+    float: left;
+    letter-spacing: 15px;
+    color:  rgb(140, 130, 130);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    text-shadow: 0px 0px 28px rgb(255, 255, 255);
+
+    background-image: linear-gradient(120deg, green,blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    transition: background-size 800ms ease;
+    background-position: left 60px;
+
+
+    font-size: 60px;
+    width: 750px;
+    height: 70px;
+    left: 50px;
+    top: 40px;
+}
+
+#title:hover{
+    background-size: 94% 3px;
+}
+
+
+#menu{
+    position: absolute;
+    height: 58px;
+    width: 570px;
+    left: 350px;
+    top: 195px;
+    background-color: rgba(99, 94, 94, 0.764);
+}
+
+#menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 110px;
+    height: 30px;
+    transition: background-color 800ms ;
+    
+}
+
+#menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#menu a.active {
+    background-color: #658031;
+    color: white;
+}
+
+*/
+
+#titleeff{
+    background-image: linear-gradient(120deg, green,blue);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition: background-size 800ms ease;
+    background-position: left 90%;
+}
+#titleeff:hover{
+    background-size: 100% 2px;
+}
+
+
+@media screen and (max-width:600px) {
+    #top{
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("img/vecteezyfloral-background-2ik0521_generated.jpg");
+        background-size: 900px 900px;
+        height: 158px;
+        /*border-bottom: 10px dashed rgb(96, 78, 78);*/
+        width: 100% ;
+    }
+
+
+    #logo{
+        float: left;
+        position: relative;
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+    #logoimg{
+        width: 150px;
+        height: 150px;
+
+
+    }
+    #title{
+        position: relative;
+        float: left;
+        letter-spacing: 5px;
+        color:  rgb(140, 130, 130);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 500;
+        text-shadow: 0px 0px 28px rgb(255, 255, 255);
+        font-size: 35px;
+        width: 47%;
+        height: 40px;
+        left: 5%;
+        top: 20px;
+    }
+    #titleeff{
+        font-size: 9vw;
+    }
+
+    #menu{
+        float: left;
+        position: relative;
+        width: 100%;
+        left: 0px;
+        background-color: rgba(49, 44, 44, 0.947);
+    }
+    a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 2%;
+        text-decoration: none;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 45.55%;
+        height: 20px;
+        transition: background-color 800ms;
+        border: 1px solid black;
+    }
+    #menu a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    #menu a.active {
+        background-color: #658031;
+        color: white;
+    }
+}
