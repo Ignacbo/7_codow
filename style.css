@@ -440,10 +440,11 @@ body {
         padding-top: 10px;
     }
     #odnosniki #k2 p{
-        font-size: 10px;
+        font-size: 9px;
         position: relative;
         top: -15px;
-        left: 10px;
+        left: 8px;
+        max-width: 90px;
     }
     #odnosniki #k2 ul li{
         font-family: Comic Sans, cursive;
