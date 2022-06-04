@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-image: url("img/vecteezyfloral-background-2ik0521_generated.jpg");
     background-size: 900px 900px;
+    height: 1800px;
 }
 
 /*
@@ -207,7 +208,7 @@ body {
         margin-top: 35vw;
         margin-left: 7%;
         margin-right: 7%;
-        height: 1800px;
+        height: 1550px;
         border-radius: 40px;
     }
 
@@ -364,5 +365,93 @@ body {
 
     #tabela tbody tr:last-of-type {
         border-bottom: 2px solid #54691D;
+    }
+    #tabela{
+        margin-bottom: 30px;
+    }
+
+
+
+    #odnosniki h2{
+        color: rgba(121, 149, 0, 0.825);
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        letter-spacing: 1px;
+        padding-top: 15px;
+        text-shadow: 1px 1px white;
+    }
+
+    #odnosniki #k1{
+        background-color: whitesmoke;
+        width: 38%;
+        height: 300px;
+        margin-left: 8%;
+        background: #FFAE2B;
+        border-top-left-radius: 250px 15px;
+        border-bottom-left-radius: 20px 115px;
+        border-bottom-right-radius: 105px 35px;
+        transition: all ease .5s;
+        float: left;
+    }
+    #odnosniki #k1:hover {
+        border-top-right-radius: 200px 150px;
+    }
+    #odnosniki #k1 h3{
+        color: black;
+        font-family: Comic Sans, cursive;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    #odnosniki #k1 ol li{
+        font-family: Comic Sans, cursive;
+        font-size: 10px;
+        margin-left: -25px;
+        margin-bottom: 8px;
+    }
+
+
+    #odnosniki #k2{
+        float: left;
+        background-color: whitesmoke;
+        width: 38%;
+        height: 300px;
+        margin-left: 8%;
+        background: #FFAE2B;
+        border-top-left-radius: 250px 5px;
+        border-top-right-radius: 20px 115px;
+        border-bottom-left-radius: 105px 35px;
+        border-bottom-right-radius: 50px 20px;
+        transition: all ease .5s;
+    }
+    #odnosniki #k2:hover {
+        border-top-right-radius: 200px 150px;
+    }
+
+    #odnosniki #k2 h3{
+        margin-top: -7px;
+        color: black;
+        font-family: Comic Sans, cursive;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    #odnosniki #k2 p{
+        font-size: 10px;
+        position: relative;
+        top: -15px;
+        left: 13px;
+    }
+    #odnosniki #k2 ul li{
+        font-family: Comic Sans, cursive;
+        font-size: 10px;
+        margin-left: -23px;
+        margin-bottom: 8px;
+    }
+    #odnosniki #k2 ul{
+        margin-top: -5px;
     }
 }
