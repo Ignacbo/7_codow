@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     background-image: url("img/vecteezyfloral-background-2ik0521_generated.jpg");
     background-size: 900px 900px;
@@ -105,10 +105,10 @@ body{
     color: white;
 }
 
-*/
+
 
 #titleeff{
-    background-image: linear-gradient(120deg, green,blue);
+    background-image: -webkit-linear-gradient(120deg, green,blue);
     background-size: 0% 2px;
     background-repeat: no-repeat;
     transition: background-size 800ms ease;
@@ -117,35 +117,38 @@ body{
 #titleeff:hover{
     background-size: 100% 2px;
 }
+*/
 
 
 @media screen and (max-width:600px) {
-    #top{
+    #top {
         background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("img/vecteezyfloral-background-2ik0521_generated.jpg");
         background-size: 900px 900px;
         height: 158px;
         /*border-bottom: 10px dashed rgb(96, 78, 78);*/
-        width: 100% ;
+        width: 100%;
     }
 
 
-    #logo{
+    #logo {
         float: left;
         position: relative;
         margin-top: 3px;
         margin-left: 3px;
     }
-    #logoimg{
+
+    #logoimg {
         width: 150px;
         height: 150px;
 
 
     }
-    #title{
+
+    #title {
         position: relative;
         float: left;
         letter-spacing: 5px;
-        color:  rgb(140, 130, 130);
+        color: rgb(140, 130, 130);
         font-family: 'Courier New', Courier, monospace;
         font-weight: 500;
         text-shadow: 0px 0px 28px rgb(255, 255, 255);
@@ -155,37 +158,148 @@ body{
         left: 5%;
         top: 20px;
     }
-    #titleeff{
+
+    #titleeff {
         font-size: 9vw;
+        background-image: -webkit-linear-gradient(120deg, green, blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
-    #menu{
+
+    #menu {
         float: left;
         position: relative;
         width: 100%;
         left: 0px;
         background-color: rgba(49, 44, 44, 0.947);
     }
-    a {
+
+    #menu a {
         float: left;
         color: #f2f2f2;
         text-align: center;
         padding: 2%;
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
         text-decoration: none;
-        font-size: 10px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        width: 45.55%;
+        width: 46%;
         height: 20px;
         transition: background-color 800ms;
-        border: 1px solid black;
+        box-shadow: 0px 0px 0px 0.6px rgb(0, 0, 0) inset;
     }
+
     #menu a:hover {
         background-color: #ddd;
         color: black;
     }
-    
+
     #menu a.active {
         background-color: #658031;
         color: white;
+    }
+
+
+
+    #mid {
+        background-color: rgb(49, 44, 44);
+        background-size: 900px 900px;
+        margin-top: 35vw;
+        margin-left: 7%;
+        margin-right: 7%;
+        height: 900px;
+        border-radius: 40px;
+    }
+
+
+
+
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+        position: relative;
+        top: 15px;
+        padding: 30px;
+    }
+    .mySlides img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+    }
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+        cursor: pointer;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 30px;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 10px;
+        color: white;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Six columns side by side */
+    .column {
+        float: left;
+        width: 14.25%;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+        opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+        opacity: 1;
     }
 }
