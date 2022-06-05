@@ -419,3 +419,300 @@ h1{
         margin-top: -8px;
     }
 }
+
+
+@media screen and (min-width:600px){
+    #top{
+        height: 200px;
+    }
+
+    #logo{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #logoimg{
+        width: 180px;
+        height: 180px;
+    }
+
+    #title{
+        letter-spacing: 10px;
+        font-size: 40px;
+        width: 67%;
+        height: 50px;
+        top: 20px;
+        text-align: center;
+    }
+
+    @media screen and (min-width:1087px){
+        #title{
+            top:60px;
+            margin-left: 7%;
+        }
+    }
+
+    #titleeff {
+        font-size:70px;
+        background-image: -webkit-linear-gradient(120deg, green, blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #menu{
+        float: left;
+        position: relative;
+        width: 100%;
+        left: 0px;
+        margin-top: 5px;
+    }
+    #menu a {
+        padding: 2%;
+        font-size: 18px;
+        width: 21%;
+        height: 20px;
+    }
+
+    #mid{
+        margin-top: 15vw;;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 40px;
+        height: 1800px;
+    }
+
+    @media screen and (min-width:760px){
+        #mid{
+            height: 1900px;
+        }
+    }
+
+    @media screen and (min-width:900px){
+        #mid{
+            height: 2000px;
+        }
+    }
+
+    @media screen and (min-width:1050px){
+        #mid{
+            height: 2100px;
+        }
+    }
+
+    .container {
+        position: relative;
+        top: 15px;
+        padding: 30px;
+    }
+
+    .mySlides img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .cursor {
+        cursor: pointer;
+    }
+
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    .next {
+        right: 30px;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 10px;
+        color: white;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .column {
+        float: left;
+        width: 14.25%;
+    }
+
+    .demo {
+        opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+
+    h1{
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 1px;
+        padding-top: 15px;
+    }
+    #opis p{
+        padding-left: 15px;
+        padding-right: 10px;
+        text-indent: 10px;
+        font-size: 15px;
+    }
+
+    #tabela h2{
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        padding-top: 15px;
+    }
+    #tabela table{
+        margin: 1px 0;
+        font-size: 2.1vw;
+        width: 90%;
+        margin-left: 5%;
+    }
+    @media screen and (min-width:800px){
+        #tabela table{
+            font-size: 17px;
+        }
+    }
+
+        #tabela th,
+    #tabela td {
+    padding: 6px 7px;
+    height: 50px;
+    }
+    #tabela tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+    
+    #tabela tbody tr:last-of-type {
+        border-bottom: 2px solid #54691D;
+    }
+    #tabela{
+        margin-bottom: 30px;
+    }
+
+
+    #odnosniki h2{
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        padding-top: 15px;
+    }
+
+    #odnosniki #k1{
+        width: 38%;
+        height: 300px;
+        margin-left: 8%;
+        border-top-left-radius: 250px 15px;
+        border-bottom-left-radius: 20px 115px;
+        border-bottom-right-radius: 105px 35px;
+
+    }
+    #odnosniki #k1:hover {
+        border-top-right-radius: 200px 150px;
+    }
+    #odnosniki #k1 h3{
+        font-size: 28px;
+        font-weight: 400;
+        margin-left: 10px;
+        padding-top: -5px;
+    }
+    #odnosniki #k1 ol li{
+        font-size: 13px;
+        margin-left: -15px;
+        margin-bottom: 8px;
+    }
+
+
+    #odnosniki #k2{
+        width: 38%;
+        height: 300px;
+        margin-left: 8%;
+        border-top-left-radius: 250px 5px;
+        border-top-right-radius: 20px 115px;
+        border-bottom-left-radius: 105px 35px;
+        border-bottom-right-radius: 50px 20px;
+    }
+    #odnosniki #k2:hover {
+        border-top-right-radius: 200px 150px;
+    }
+
+    #odnosniki #k2 h3{
+        margin-top: 7px;
+        font-size: 28px;
+        font-weight: 400;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    #odnosniki #k2 p{
+        font-size: 12px;
+        top: -25px;
+        left: 8px;
+    }
+    #odnosniki #k2 ul li{
+        font-family: Comic Sans, cursive;
+        font-size: 13px;
+        margin-left: -15px;
+        margin-bottom: 8px;
+    }
+    #odnosniki #k2 ul{
+        margin-top: -5px;
+    }
+    @media screen and (min-width:601px) {
+        @media screen and (max-width:698px){
+            #odnosniki #k2 ul{
+                margin-top: -35px;
+            }
+        }
+    }
+
+
+
+    #footer h2{
+        font-weight: 100;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    #footer p{
+        font-size: 12px;
+        font-weight: 100;
+        margin-top: -8px;
+    }
+
+}
+
