@@ -740,11 +740,13 @@ h1{
         width: 350px;
         font-size: 25px;
         float: left;
+        line-height: 2.4vw;
     }
     .container{
         float: left;
         position: relative;
         width: 63%;
+        margin-left: 1.5vw;
     }
 
     #hrgallery{
