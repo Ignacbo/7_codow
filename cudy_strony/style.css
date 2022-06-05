@@ -1,5 +1,10 @@
+html{
+    height: 100%;
+}
+
 body{
     margin: 0px;
+    height: 100%;
 }
 
 .top{
@@ -14,6 +19,7 @@ body{
     background-size: 900px 900px;
     width: 100%;
     padding-bottom: 50px;
+    min-height: 100%;
 }
 
 .hedf{
@@ -198,6 +204,7 @@ body{
     }
 
     .mid{
+        height: 100%;
         background-color: rgb(49, 44, 44);
         width: 100%;
         padding-bottom: 50px;
