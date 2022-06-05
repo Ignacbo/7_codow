@@ -10,22 +10,145 @@ html{
 }
 
 
+#top{
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75)), url("img/vecteezyfloral-background-2ik0521_generated.jpg");
+    width: 100%;
+    background-size: 900px 900px;
+}
 
+#logo{
+    float: left;
+    position: relative;
+}
+
+#title{
+    position: relative;
+    float: left;
+    color: rgb(140, 130, 130);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-shadow: 0px 0px 28px rgb(131, 130, 130);
+}
+
+#menu{
+    background-color: rgba(49, 44, 44, 0.947);
+}
+
+#menu a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    transition: background-color 800ms;
+    box-shadow: 0px 0px 0px 0.6px rgb(0, 0, 0) inset;
+}
+
+#menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+#mid{
+    background-color: rgb(49, 44, 44);
+    background-size: 900px 900px;
+}
+
+
+
+h1{
+    color: rgba(254, 202, 72, 0.825);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px white;
+}
+
+#tabela h2{
+    color: rgba(121, 149, 0, 0.825);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px white;
+}
+
+#opis p{
+    color: grey;
+    font-family: monospace;
+}
+
+#tabela table{
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+
+#tabela thead tr {
+    background-color: #54691D;
+    color: #ffffff;
+    text-align: left;
+}
+
+#tabela tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+#tabela tbody tr:nth-of-type(odd){
+    color: white;
+    background-color: #383838;
+}
+
+#odnosniki h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(121, 149, 0, 0.825);
+    text-shadow: 1px 1px white;
+}
+
+#odnosniki #k2,
+#odnosniki #k1{
+    background-color: whitesmoke;
+    background: #FFAE2B;
+    transition: all ease .5s;
+    float: left;
+}
+
+#odnosniki #k2 h3,
+#odnosniki #k1 h3{
+    color: black;
+    font-family: Comic Sans, cursive;
+}
+
+#odnosniki #k2 ul li,
+#odnosniki #k1 ol li{
+    font-family: Comic Sans, cursive;
+}
+
+#odnosniki #k2 p{
+    position: relative;
+}
+
+#footer{
+    background-color: rgb(49, 44, 44);
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+}
+
+#footer h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(120, 116, 116);
+    text-align: center;
+}
+
+#footer p{
+    text-align: center;
+    color: rgb(185, 185, 185);
+}
 
 
 @media screen and (max-width:600px) {
     #top {
-        background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75)), url("img/vecteezyfloral-background-2ik0521_generated.jpg");
-        background-size: 900px 900px;
         height: 158px;
-        /*border-bottom: 10px dashed rgb(96, 78, 78);*/
-        width: 100%;
     }
 
 
     #logo {
-        float: left;
-        position: relative;
         margin-top: 3px;
         margin-left: 3px;
     }
@@ -33,18 +156,10 @@ html{
     #logoimg {
         width: 150px;
         height: 150px;
-
-
     }
 
     #title {
-        position: relative;
-        float: left;
         letter-spacing: 5px;
-        color: rgb(140, 130, 130);
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 700;
-        text-shadow: 0px 0px 28px rgb(131, 130, 130);
         font-size: 35px;
         width: 47%;
         height: 40px;
@@ -65,39 +180,23 @@ html{
         position: relative;
         width: 100%;
         left: 0px;
-        background-color: rgba(49, 44, 44, 0.947);
     }
 
     #menu a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
         padding: 2%;
         font-size: 18px;
-        font-family: 'Courier New', Courier, monospace;
-        text-decoration: none;
         width: 46%;
         height: 20px;
-        transition: background-color 800ms;
-        box-shadow: 0px 0px 0px 0.6px rgb(0, 0, 0) inset;
     }
-
-    #menu a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-
 
 
 
     #mid {
-        background-color: rgb(49, 44, 44);
-        background-size: 900px 900px;
         margin-top: 35vw;
         margin-left: 7%;
         margin-right: 7%;
         height: 1670px;
-        border-radius: 40px;
+        border-radius: 40px;;
     }
 
 
@@ -183,47 +282,41 @@ html{
     }
 
 
+
+
     h1{
-        color: rgba(254, 202, 72, 0.825);
         font-size: 25px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
         letter-spacing: 1px;
         padding-top: 15px;
-        text-shadow: 1px 1px white;
     }
 
+
+
+
     #opis p{
-        color: grey;
         padding-left: 15px;
         padding-right: 10px;
         text-indent: 10px;
-        font-family: monospace;
         font-size: 15px;
     }
 
+
+
+
     #tabela h2{
-        color: rgba(121, 149, 0, 0.825);
         font-size: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
         letter-spacing: 1px;
         padding-top: 15px;
-        text-shadow: 1px 1px white;
     }
     #tabela table{
-        border-collapse: collapse;
         margin: 1px 0;
         font-size: 2.7vw;
-        font-family: sans-serif;
         width: 90%;
         margin-left: 5%;
     }
-    #tabela thead tr {
-        background-color: #54691D;
-        color: #ffffff;
-        text-align: left;
-    }
+
     #tabela th,
     #tabela td {
     padding: 6px 7px;
@@ -233,14 +326,6 @@ html{
         border-bottom: 1px solid #dddddd;
     }
     
-    #tabela tbody tr:nth-of-type(even) {
-        background-color: #f3f3f3;
-    }
-    #tabela tbody tr:nth-of-type(odd){
-        color: white;
-        background-color: #383838;
-    }
-
     #tabela tbody tr:last-of-type {
         border-bottom: 2px solid #54691D;
     }
@@ -250,41 +335,33 @@ html{
 
 
 
+
     #odnosniki h2{
-        color: rgba(121, 149, 0, 0.825);
         font-size: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
         letter-spacing: 1px;
         padding-top: 15px;
-        text-shadow: 1px 1px white;
     }
 
     #odnosniki #k1{
-        background-color: whitesmoke;
         width: 38%;
         height: 300px;
         margin-left: 8%;
-        background: #FFAE2B;
         border-top-left-radius: 250px 15px;
         border-bottom-left-radius: 20px 115px;
         border-bottom-right-radius: 105px 35px;
-        transition: all ease .5s;
-        float: left;
+
     }
     #odnosniki #k1:hover {
         border-top-right-radius: 200px 150px;
     }
     #odnosniki #k1 h3{
-        color: black;
-        font-family: Comic Sans, cursive;
         font-size: 14px;
         font-weight: 400;
         margin-left: 10px;
         padding-top: 10px;
     }
     #odnosniki #k1 ol li{
-        font-family: Comic Sans, cursive;
         font-size: 10px;
         margin-left: -25px;
         margin-bottom: 8px;
@@ -292,17 +369,13 @@ html{
 
 
     #odnosniki #k2{
-        float: left;
-        background-color: whitesmoke;
         width: 38%;
         height: 300px;
         margin-left: 8%;
-        background: #FFAE2B;
         border-top-left-radius: 250px 5px;
         border-top-right-radius: 20px 115px;
         border-bottom-left-radius: 105px 35px;
         border-bottom-right-radius: 50px 20px;
-        transition: all ease .5s;
     }
     #odnosniki #k2:hover {
         border-top-right-radius: 200px 150px;
@@ -310,8 +383,6 @@ html{
 
     #odnosniki #k2 h3{
         margin-top: 7px;
-        color: black;
-        font-family: Comic Sans, cursive;
         font-size: 14px;
         font-weight: 400;
         margin-left: 10px;
@@ -319,7 +390,6 @@ html{
     }
     #odnosniki #k2 p{
         font-size: 9px;
-        position: relative;
         top: -15px;
         left: 8px;
         max-width: 90px;
@@ -336,24 +406,14 @@ html{
 
 
 
-    #footer{
-        background-color: rgb(49, 44, 44);
-        margin-top: 100px;
-        width: 100%;
-        height: 100px;
-    }
+
 
     #footer h2{
-        font-family: 'Courier New', Courier, monospace;
-        color: rgb(120, 116, 116);
-        text-align: center;
         font-weight: 100;
         padding-top: 20px;
         font-size: 20px;
     }
     #footer p{
-        text-align: center;
-        color: rgb(185, 185, 185);
         font-size: 12px;
         font-weight: 100;
         margin-top: -8px;
