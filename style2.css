@@ -725,7 +725,6 @@ h1{
         width: 100%;
         margin-right: 0px;
         margin-left: 0px;
-        height: 2000px;
     }
 
     h1{
@@ -746,7 +745,7 @@ h1{
         float: left;
         position: relative;
         width: 63%;
-        margin-left: 1.5vw;
+        margin-left: 0.75%;
     }
 
     #hrgallery{
