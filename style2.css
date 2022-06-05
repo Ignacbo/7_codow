@@ -716,3 +716,79 @@ h1{
 
 }
 
+
+
+@media screen and (min-width:1200px){
+    #mid{
+        clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 100%);
+        border-top-left-radius: 0px;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 2000px;
+    }
+
+    h1{
+        font-size:30px ;
+        text-align: left;
+        padding-top: 50px;
+        margin-left: 20px;
+        width: 300px;
+    }
+
+    #opis p{
+        width: 350px;
+        font-size: 25px;
+        float: left;
+    }
+    .container{
+        float: left;
+        position: relative;
+        width: 63%;
+    }
+
+    #hrgallery{
+        visibility: hidden;
+    }
+
+    #hrtable{
+        clear: left;
+    }
+
+    #tabela h2{
+        margin-top: 30px;
+        font-size: 30px;
+        letter-spacing: 7px;
+    }
+
+    #odnosniki h2{
+        font-size: 40px;
+        letter-spacing: 7px;
+    }
+
+    #odnosniki #k2 h3,
+    #odnosniki #k1 h3{
+        font-size: 35px;
+    }
+
+    #odnosniki #k1 h3{
+        margin-top: 20px;
+    }
+
+    #odnosniki #k1 ol li,
+    #odnosniki #k2 ul li{
+        margin-left: -1px;
+        font-size: 15px;
+    }
+
+    #odnosniki #k1 ol,
+    #odnosniki #k2 ul{
+        margin-top: -20px;
+    }
+
+    #odnosniki #k2 p{
+        top: -35px;
+        font-size: 17px;
+        left: 12px;
+    }
+}   
